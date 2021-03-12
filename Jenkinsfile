@@ -31,5 +31,3 @@ pipeline {
 		}
 	}
 }
-
-// removido do sonar local  -Dsonar.coverage.exclusions=**/.mvn/**, **/src/test/**,**/model/**,**/Application.java
