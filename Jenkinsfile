@@ -23,7 +23,7 @@ pipeline {
 		}
 		stage ('Quality Gate') {
 			steps {
-				sleep(5)
+				sleep(15)
 				timeout(time: 1, unit: 'MINUTES') {
 					waitForQualityGate abortPipeline: true				                           
 				}
@@ -64,6 +64,14 @@ pipeline {
 				sh 'docker-compose build'
 				sh 'docker-compose up -d'
 			}
+		}
+		stage ('Health Check') {
+			steps {
+				sleep(15)
+				dir('functional-test') {
+	           		sh 'mvn verify -Dskip.surefire.tests'
+           		}
+			}                
 		}
 	}
 }
