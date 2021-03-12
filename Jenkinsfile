@@ -51,5 +51,13 @@ pipeline {
 				}
 			}
 		}
+		stage ('Functional Test') {
+			steps {
+				dir('functional-test') {
+	           		git 'https://github.com/wregin/tasks-functional-tests'
+	           		sh 'mvn test'
+           		}
+			}                
+		}
 	}
 }
