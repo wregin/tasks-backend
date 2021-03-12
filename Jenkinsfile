@@ -32,7 +32,7 @@ pipeline {
 		stage ('Deploy Backend') {
 			steps {
 				sleep(10)
-				deploy adapters: [tomcat9(credentialsId: 'TomcatLogin', path: '', url: 'http://localhost:8001/')], contextPath: 'tasks-backend', war: 'target/tasks-backend.war' 
+				deploy adapters: [tomcat9(credentialsId: 'TomcatLogin', path: '', url: 'http://192.168.15.26:9999/')], contextPath: 'tasks-backend', war: 'target/tasks-backend.war' 
 			}
 		}
 		stage ('API Test') {
@@ -48,7 +48,7 @@ pipeline {
 				dir('frontend') {
 					git 'https://github.com/wregin/tasks-frontend'
 					sh 'mvn clean package'
-					deploy adapters: [tomcat9(credentialsId: 'TomcatLogin', path: '', url: 'http://localhost:8001/')], contextPath: 'tasks', war: 'target/tasks.war' 
+					deploy adapters: [tomcat9(credentialsId: 'TomcatLogin', path: '', url: 'http://192.168.15.26:9999/')], contextPath: 'tasks', war: 'target/tasks.war' 
 				}
 			}
 		}
