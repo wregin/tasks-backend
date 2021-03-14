@@ -22,7 +22,7 @@ Exemplo onde deu erro na quality gate, foi alterada a porcentagem de cobertura d
 
 Após a alteração para cobertura de 70% o qualite gate permitiu seguir.
 
-![Sonar coverage](https://github.com/wregin/tasks-backend/blob/master/showroom/sonar_abaixo80.png?raw=true)
+[Sonar coverage](https://github.com/wregin/tasks-backend/blob/master/showroom/sonar_abaixo80.png?raw=true)
 
 # Selenium
 
@@ -30,7 +30,7 @@ Aqui o bacana é que com o selenium pode ser configurado os passos a serem execu
 
 ![console Selenium](https://github.com/wregin/tasks-backend/blob/master/showroom/selenium_chrome.png?raw=true)
 
-Exemplo do código da configuração do Selenium.
+Exemplo do código da configuração de um dos testes do Selenium.
 
 ![Exemplo do código que o Selenium executa](https://github.com/wregin/tasks-backend/blob/master/showroom/selenium_cod.png?raw=true)
 
