@@ -32,7 +32,7 @@ Exemplo onde deu erro na quality gate, foi alterada a porcentagem de cobertura d
 
 Após a alteração para cobertura de 70% o qualite gate permitiu seguir.
 
-[Sonar coverage](https://github.com/wregin/tasks-backend/blob/master/showroom/sonar_abaixo80.png?raw=true)
+![Sonar coverage](https://github.com/wregin/tasks-backend/blob/master/showroom/sonar_abaixo80.png?raw=true)
 
 # Selenium
 
