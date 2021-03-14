@@ -4,7 +4,7 @@ Aplicação em SpringBoot, back e frontend utilizando integração contínua e e
 
 ## Tela do projeto
 
-[Tela adicionar tarefa](https://github.com/wregin/tasks-backend/blob/master/showroom/telaprojeto.png?raw=true)
+![Tela adicionar tarefa](https://github.com/wregin/tasks-backend/blob/master/showroom/telaprojeto.png?raw=true)
 
 ## Jenkins
 
