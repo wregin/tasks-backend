@@ -12,8 +12,6 @@ No Jenkins foi criado um job tipo pipeline, apontando para o [Jenkinsfile](https
 
 ![Config pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/config_pipeline.png?raw=true)
 
-[jenkinsfile](https://github.com/wregin/tasks-backend/blob/master/Jenkinsfile)
-
 Veja que ao subir a estrutura, todos os stage/passos são executados pelo Jenkins.
 
 ![Jenkins pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/pipeline_stage_view.png?raw=true)
