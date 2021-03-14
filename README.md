@@ -2,6 +2,10 @@
 
 Aplicação em SpringBoot, back e frontend utilizando integração contínua e entrega contínua, Docker, Jenkins, Sonar e mais, segue abaixo um resumo do projeto.
 
+## Tela do projeto
+
+[Tela adicionar tarefa](https://github.com/wregin/tasks-backend/blob/master/showroom/telaprojeto.png?raw=true)
+
 ## Jenkins
 
 No Jenkins foi criado um job tipo pipeline, apontando para o [Jenkinsfile](https://github.com/wregin/tasks-backend/blob/master/Jenkinsfile) onde estão apontado todos os estágios e passos do projeto.
