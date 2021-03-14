@@ -43,4 +43,4 @@ Veja que para executar esses processos é necessária uma certa quantidade de me
 
 # Base do projeto 
 
-O projeto foi inicialmente forked do [wcaquino](https://github.com/wcaquinocursos)
+O projeto é forked do [wcaquino](https://github.com/wcaquinocursos) com algumas pequenas alterações para fim didático.
