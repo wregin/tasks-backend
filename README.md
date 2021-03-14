@@ -6,23 +6,23 @@ Aplicação em SpringBoot back e frontend utilizando integração contínua e en
 
 No Jenkins foi criado um job tipo pipeline, apontando para o [Jenkinsfile](https://github.com/wregin/tasks-backend/blob/master/Jenkinsfile) onde estão apontado todos os estágios e passos do projeto.
 
-[Config pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/config_pipeline.png?raw=true)
+![Config pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/config_pipeline.png?raw=true)
 
 [jenkinsfile](https://github.com/wregin/tasks-backend/blob/master/Jenkinsfile)
 
 Veja que ao subir a estrutura, todos os passos são executados pelo Jenkins.
 
-[Jenkins pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/pipeline_stage_view.png?raw=true)
+![Jenkins pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/pipeline_stage_view.png?raw=true)
 
 # SonarQube
 
 Exemplo onde deu erro na quality gate, foi alterada a porcentagem de cobertura de forma que o projeto não atendeu o mínimo de 80% e assim não foi possível seguir.
 
-[Erro na qualite gate](https://github.com/wregin/tasks-backend/blob/master/showroom/abaixo80.png?raw=true)
+![Erro na qualite gate](https://github.com/wregin/tasks-backend/blob/master/showroom/abaixo80.png?raw=true)
 
 Após a alteração para cobertura de 70% o qualite gate permitiu seguir.
 
-[Sonar coverage](https://github.com/wregin/tasks-backend/blob/master/showroom/sonar_abaixo80.png?raw=true)
+![Sonar coverage](https://github.com/wregin/tasks-backend/blob/master/showroom/sonar_abaixo80.png?raw=true)
 
 # Selenium
 
