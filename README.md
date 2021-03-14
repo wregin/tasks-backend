@@ -1,6 +1,6 @@
 # Projeto Springboot, API Rest, CI/CD, testes unitários, utilizando Docker, Jenkins, SonarQube, Selenium e Maven.
 
-Aplicação em SpringBoot back e frontend utilizando integração contínua e entrega contínua, Docker, Jenkins, Sonar e mais, segue abaixo um resumo do projeto.
+Aplicação em SpringBoot, back e frontend utilizando integração contínua e entrega contínua, Docker, Jenkins, Sonar e mais, segue abaixo um resumo do projeto.
 
 ## Jenkins
 
@@ -39,4 +39,4 @@ Exemplo do código da configuração de um dos testes do Selenium.
 
 Veja que para executar esses processos é necessária uma certa quantidade de memória, coloquei 10gb na máquina virtual e ainda sim acabou por utilizar a swap.
 
-[](swap)
+[htop](https://github.com/wregin/tasks-backend/blob/master/showroom/htop.png?raw=true)
