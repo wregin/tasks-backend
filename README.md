@@ -18,6 +18,14 @@ Veja que ao subir a estrutura, todos os passos são executados pelo Jenkins.
 
 ![Jenkins pipeline](https://github.com/wregin/tasks-backend/blob/master/showroom/pipeline_stage_view.png?raw=true)
 
+Exemplo de erro ao alterar a porcentagem da quality gate.
+
+![Jenkins mostrando erro na quality gate](https://github.com/wregin/tasks-backend/blob/master/showroom/pipeline_erroquality.png?raw=true)
+
+Verificando que o console informa que os stages foram pulados por conta de um erro ocorrido anteriormente.
+
+![Erro no console](https://github.com/wregin/tasks-backend/blob/master/showroom/pipeline_erroconsole.png?raw=true)
+
 # SonarQube
 
 Exemplo onde deu erro na quality gate, foi alterada a porcentagem de cobertura de forma que o projeto não atendeu o mínimo de 80% e assim não foi possível seguir.
